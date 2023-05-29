@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-col-1,
+.header-col-2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.login {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.join {
+    padding: .8em 2em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(71, 186, 104);
+    background: linear-gradient(90deg, rgba(71, 186, 104, 1) 0%, rgba(0, 150, 255, 1) 0%, rgba(0, 72, 255, 1) 65%);
+    color: white;
+    font-weight: 500;
+}
+
+.main {
+    background: rgb(71, 186, 104);
+    background: linear-gradient(90deg, rgba(71, 186, 104, 1) 0%, rgba(8, 11, 19, 1) 0%, rgba(36, 45, 64, 1) 37%);
+    padding: 35px 90px;
+}
+
+.raleway-title {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 !important;
+}
+
+.roboto-title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 !important;
+}
+
+.line-through {
+    text-decoration: red line-through;
+}
+
+.highlighted-text {
+    color: #0096FF;
+    font-weight: 600;
+}
+
+.feature-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.list-item {
+    color: white;
+}
+
+.list-description {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    gap: 300px;
+}
+
+.list-item {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.list-img {
+    width: 10%;
+}
+
+.test {
+    color: white;
+}
+
+.main-col-2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscription-form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 449px
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan h2 {
+    text-align: center;
+    font-size: 24px;
+    background: #0096FF;
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.plan h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.selection-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing {
+    margin: 20px 0;
+}
+
+.individual-pricing {
+    border: 2px solid #bebebe;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.disabled {
+    background-color: #e7e7e7;
+}
+
+.success {
+    border: 2px solid #47ba68;
+    background-color: #d7eddd;
+}
+
+.circle {
+    border: 2px solid #bebebe;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-success {
+    border: 2px solid #47ba68;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    height: 13px;
+    width: 13px;
+    background-color: #bebebe;
+    border-radius: 50%;
+}
+
+.inner-circle-success {
+    height: 13px;
+    width: 13px;
+    background-color: #47ba68;
+    border-radius: 50%;
+}
+
+.selection-disabled h2 {
+    font-size: 14px;
+    color: #bebebe;
+}
+
+.selection-disabled {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.total {
+    color: #bebebe;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.total-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.total span {
+    font-size: 12px;
+}
+
+.total h3 {
+    font-size: 16px;
+}
+
+.monthly h4 {
+    font-size: 12px;
+    color: #bebebe;
+    font-weight: 400;
+    margin: 0 !important;
+    text-align: right;
+}
+
+.success-selection h2 {
+    color: black;
+}
+
+.selection-available h2 {
+    color: black;
+}
+
+hr {
+    border-top: 2px solid #bebebe;
+}
+
+.subscription-fee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-fee h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.danger {
+    border: 2px solid #de4313;
+    background: #fdeada;
+    flex-direction: column;
+}
+
+.limited-offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.limited-offer h1 {
+    color: #de4313;
+}
+
+.limited-offer h1,
+.limited-offer h2 {
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.buttons button {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 14px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.cancel {
+    border: 2px solid #f77171;
+    color: #f77171;
+    background-color: white;
+}
+
+.proceed {
+    border: 2px solid #47ba68;
+    background-color: #47ba68;
+    color: white;
+}
+
+.razorpay {
+    margin-top: 30px;
+}
